@@ -16,7 +16,7 @@ let h = 0; // Rows of text
 function BuildLines(){
 
   // Calculate number of lines (h) and columns (w)
-  h = Math.ceil(window.innerHeight / CHAR_HEIGHT);
+  h = Math.ceil(1.25 * window.innerHeight / CHAR_HEIGHT);
   w = window.innerWidth / CHAR_WIDTH;
 
   // If lines already exist (screen resized), remove elements first
