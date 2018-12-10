@@ -1,6 +1,6 @@
 // Size allocated on screen for each character
 const CHAR_WIDTH = 9;
-const CHAR_HEIGHT = 16;
+const CHAR_HEIGHT = 10;
 
 // Speed of text in characters per second
 const SPEED  = 30;
